@@ -53,7 +53,7 @@ class Student
   end 
   
   def self.new_from_db 
-    student = self.new
+    student = Student.new
   end 
 
   # Remember, you can access your database connection anywhere in this class
