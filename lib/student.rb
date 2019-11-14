@@ -58,6 +58,7 @@ class Student
     student.name =  row[1]
     student.grade = row[2]
     student
+     DB[:conn].execute(sql)
   end 
 
   # Remember, you can access your database connection anywhere in this class
