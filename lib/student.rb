@@ -57,12 +57,6 @@ class Student
     name = row[1]
     grade = row[2]
     self.new(id, name, grade)
-    # self.new(id, name, grade)
-    # student.id = row[0]
-    # student.name =  row[1]
-    # student.grade = row[2]
-    # student
-    # DB[:conn].execute(sql)
   end 
   
   def self.find_by_name(name)
